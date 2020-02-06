@@ -1,6 +1,7 @@
 body {
     font-family: 'Karla';
     font-weight: 700;
+    font-size: 0.6em;
     header {
         border: 2px solid black;
         text-align: center;
@@ -18,7 +19,7 @@ body {
             .titre-horaire {
                 font-size: 1em;
             }
-            h4 {
+            h4,h2 {
                 margin: 0;
             }
             div {
@@ -111,6 +112,21 @@ body {
             }
     }
 }
+
+@media only screen and (min-width: 768px) {
+    body {
+        font-size: 0.8em;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+   
+    body {
+        font-size: 1.2em;
+    }
+}
+
+
 
 
 
