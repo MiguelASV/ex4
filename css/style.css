@@ -15,4 +15,169 @@ License: GNU General Public License v2 or later
 ----------------------------------------------------------------
 # Horaire
 --------------------------------------------------------------*/
+body header {
+  border: 2px solid black;
+  text-align: center;
+}
+
+body .horaire {
+  display: -ms-grid;
+  display: grid;
+  height: 80vh;
+  width: 80%;
+  margin: 0 10%;
+  -ms-grid-columns: 5% (19%)[5];
+      grid-template-columns: 5% repeat(5, 19%);
+  -ms-grid-rows: 8% auto;
+      grid-template-rows: 8% auto;
+  border: 2px blue solid;
+}
+
+body .horaire h4 {
+  margin: 0;
+}
+
+body .horaire div {
+  border: 2px white solid;
+  text-align: center;
+}
+
+body .horaire .huit {
+  -ms-grid-column: 1;
+  grid-column: 1;
+  -ms-grid-row: 2;
+  grid-row: 2;
+}
+
+body .horaire .neuf {
+  -ms-grid-column: 1;
+  grid-column: 1;
+  -ms-grid-row: 3;
+  grid-row: 3;
+}
+
+body .horaire .dix {
+  -ms-grid-column: 1;
+  grid-column: 1;
+  -ms-grid-row: 4;
+  grid-row: 4;
+}
+
+body .horaire .onze {
+  -ms-grid-column: 1;
+  grid-column: 1;
+  -ms-grid-row: 5;
+  grid-row: 5;
+}
+
+body .horaire .douze {
+  -ms-grid-column: 1;
+  grid-column: 1;
+  -ms-grid-row: 6;
+  grid-row: 6;
+}
+
+body .horaire .treize {
+  -ms-grid-column: 1;
+  grid-column: 1;
+  -ms-grid-row: 7;
+  grid-row: 7;
+}
+
+body .horaire .quatorze {
+  -ms-grid-column: 1;
+  grid-column: 1;
+  -ms-grid-row: 8;
+  grid-row: 8;
+}
+
+body .horaire .quinze {
+  -ms-grid-column: 1;
+  grid-column: 1;
+  -ms-grid-row: 9;
+  grid-row: 9;
+}
+
+body .horaire .seize {
+  -ms-grid-column: 1;
+  grid-column: 1;
+  -ms-grid-row: 10;
+  grid-row: 10;
+}
+
+body .horaire .dix-sept {
+  -ms-grid-column: 1;
+  grid-column: 1;
+  -ms-grid-row: 11;
+  grid-row: 11;
+}
+
+body .horaire .dix-huit {
+  -ms-grid-column: 1;
+  grid-column: 1;
+  -ms-grid-row: 12;
+  grid-row: 12;
+}
+
+body .horaire .projet-lundi {
+  -ms-grid-column: 2;
+  grid-column: 2;
+  -ms-grid-row: 7;
+  -ms-grid-row-span: 5;
+  grid-row: 7/12;
+  background-color: lightblue;
+}
+
+body .horaire .veille-mardi {
+  -ms-grid-column: 3;
+  grid-column: 3;
+  -ms-grid-row: 8;
+  -ms-grid-row-span: 4;
+  grid-row: 8/12;
+  background-color: yellow;
+}
+
+body .horaire .stage {
+  -ms-grid-column: 4;
+  grid-column: 4;
+  -ms-grid-row: 5;
+  grid-row: 5;
+  background-color: lightcoral;
+}
+
+body .horaire .video-merc {
+  -ms-grid-column: 4;
+  grid-column: 4;
+  -ms-grid-row: 7;
+  -ms-grid-row-span: 3;
+  grid-row: 7/10;
+  background-color: violet;
+}
+
+body .horaire .projet-jeudi {
+  -ms-grid-column: 5;
+  grid-column: 5;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 4;
+  grid-row: 2/6;
+  background-color: lightblue;
+}
+
+body .horaire .veille-jeudi {
+  -ms-grid-column: 5;
+  grid-column: 5;
+  -ms-grid-row: 8;
+  -ms-grid-row-span: 4;
+  grid-row: 8/12;
+  background-color: yellow;
+}
+
+body .horaire .video-ven {
+  -ms-grid-column: 6;
+  grid-column: 6;
+  -ms-grid-row: 7;
+  -ms-grid-row-span: 3;
+  grid-row: 7/10;
+  background-color: violet;
+}
 /*# sourceMappingURL=style.css.map */

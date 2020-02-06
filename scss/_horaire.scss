@@ -1,0 +1,106 @@
+body {
+    header {
+        border: 2px solid black;
+        text-align: center;
+    }
+    .horaire {
+        display: grid;
+        height: 80vh;
+        width: 80%;
+        margin: 0 10%;
+        grid-template-columns: 5% repeat(5, 19%);
+        grid-template-rows: 8% auto;
+        border: 2px blue solid;
+            
+            h4 {
+                margin: 0;
+            }
+            div {
+                border: 2px white solid;
+                text-align: center;
+            }
+            .huit{
+                grid-column: 1;
+                grid-row: 2;
+            }
+            .neuf {
+                grid-column: 1;
+                grid-row: 3;
+            }
+            .dix {
+                grid-column: 1;
+                grid-row: 4;
+            }
+            .onze {
+                grid-column: 1;
+                grid-row: 5;
+            }
+            .douze {
+                grid-column: 1;
+                grid-row: 6;
+            }
+            .treize {
+                grid-column: 1;
+                grid-row: 7;
+            }
+            .quatorze {
+                grid-column: 1;
+                grid-row: 8;
+            }
+            .quinze{
+                grid-column: 1;
+                grid-row: 9;
+            }
+            .seize {
+                grid-column: 1;
+                grid-row: 10;
+            }
+            .dix-sept {
+                grid-column: 1;
+                grid-row: 11;
+            }
+            .dix-huit {
+                grid-column: 1;
+                grid-row: 12;
+            }
+            .projet-lundi {
+            grid-column: 2;
+            grid-row: 7/12;
+            background-color: lightblue;
+            }
+            .veille-mardi {
+                grid-column: 3;
+                grid-row: 8/12;
+                background-color: yellow;
+            }
+            .stage {
+                grid-column: 4;
+                grid-row: 5;
+                background-color: lightcoral;
+            }
+            .video-merc {
+                grid-column: 4;
+                grid-row: 7/10;
+                background-color: violet;
+            }
+            .projet-jeudi {
+                grid-column: 5;
+                grid-row: 2/6;
+                background-color: lightblue;
+            }
+            .veille-jeudi {
+                grid-column: 5;
+                grid-row: 8/12;
+                background-color: yellow;
+            }
+            .video-ven {
+                grid-column: 6;
+                grid-row: 7/10;
+                background-color: violet;
+            }
+    }
+}
+
+
+
+
