@@ -1,4 +1,6 @@
 body {
+    font-family: 'Karla';
+    font-weight: 700;
     header {
         border: 2px solid black;
         text-align: center;
@@ -10,18 +12,27 @@ body {
         margin: 0 10%;
         grid-template-columns: 5% repeat(5, 19%);
         grid-template-rows: 8% auto;
-        border: 2px blue solid;
-            
+        border: 2px black solid;
+        background-color: lightgrey;
+        padding: 4px;
+            .titre-horaire {
+                font-size: 1em;
+            }
             h4 {
                 margin: 0;
             }
             div {
-                border: 2px white solid;
-                text-align: center;
+                border: 2px black solid;
+                display: grid;
+                align-items: center;
+                justify-content: center;
+                margin: 2px;
             }
             .huit{
                 grid-column: 1;
                 grid-row: 2;
+                align-items: center;
+                justify-content: center;
             }
             .neuf {
                 grid-column: 1;

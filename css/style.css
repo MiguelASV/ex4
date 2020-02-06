@@ -15,6 +15,11 @@ License: GNU General Public License v2 or later
 ----------------------------------------------------------------
 # Horaire
 --------------------------------------------------------------*/
+body {
+  font-family: 'Karla';
+  font-weight: 700;
+}
+
 body header {
   border: 2px solid black;
   text-align: center;
@@ -30,7 +35,13 @@ body .horaire {
       grid-template-columns: 5% repeat(5, 19%);
   -ms-grid-rows: 8% auto;
       grid-template-rows: 8% auto;
-  border: 2px blue solid;
+  border: 2px black solid;
+  background-color: lightgrey;
+  padding: 4px;
+}
+
+body .horaire .titre-horaire {
+  font-size: 1em;
 }
 
 body .horaire h4 {
@@ -38,8 +49,16 @@ body .horaire h4 {
 }
 
 body .horaire div {
-  border: 2px white solid;
-  text-align: center;
+  border: 2px black solid;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 2px;
 }
 
 body .horaire .huit {
@@ -47,6 +66,12 @@ body .horaire .huit {
   grid-column: 1;
   -ms-grid-row: 2;
   grid-row: 2;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 body .horaire .neuf {
